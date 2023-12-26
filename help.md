@@ -1,7 +1,7 @@
 ### For installation:
 npx create-next-app@latest ./
 
-npm install --save-dev three react-intersection-observer @react-three/drei @react-three/fiber framer-motion 
+npm install --save-dev three react-intersection-observer @react-three/drei @react-three/fiber framer-motion maath
 
 npm i react-icons @heroicons/react
 
