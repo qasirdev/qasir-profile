@@ -4,6 +4,9 @@ const nextConfig = {
 	images: {
 		loader: 'default',
 		unoptimized: true
+	},
+	eslint: {
+		ignoreDuringBuilds: false,
 	}
 }
 
