@@ -61,7 +61,13 @@
 .scrollbar-hidden::-webkit-scrollbar {
   display: none;
 }
-
+.my-image {
+  position: fixed;
+  z-index: 5;
+  width: 10%;
+  bottom: 20px;
+  left: 0;
+}
 
 
 html {
