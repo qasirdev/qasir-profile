@@ -59,7 +59,7 @@ const Footer = () => {
 					</div>
 
 					<div className="mb-[20px] text-[15px] text-center">
-							&copy; Qasir Dev 2023 . All rights reserved
+							&copy; Qasir Dev 2024 . All rights reserved
 					</div>
 				</div>
 			</div>

@@ -26,7 +26,7 @@ make up
 ### To deploy on AWS:
 - with in local downloaded key folder, open terminal:
   ssh -i "qasir-profile-key.pem" ubuntu@ec2-51-20-227-252.eu-north-1.compute.amazonaws.com
-	
+```
 	sudo apt-get install npm
 	sudo npm install -g n
 
@@ -44,7 +44,8 @@ make up
 	pm2 start --name=qasir-profile npm -- start
 	pm2 show qasir-profile
 	pm2 monit
-	pm2 restart nextjs
+	pm2 restart qasir-profile
+```
 <!--
 AWS:
 https://www.youtube.com/watch?v=oaK223BiTBU
@@ -53,4 +54,6 @@ https://www.youtube.com/watch?v=a_qbqpDifXM
 Profile:
 https://www.youtube.com/watch?v=0siQoaXMmzk
 https://www.youtube.com/watch?v=sUKptmUVIBM
+4 projects:
+https://www.youtube.com/watch?v=06SbKj2aLTg
 -->
