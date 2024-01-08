@@ -7,10 +7,23 @@ import Footer from '@/components/main/Footer'
 
 const inter = Inter({ subsets: ['latin'] })
 
+// openGraph is used by social media
 export const metadata: Metadata = {
   title: 'Qasir Portfolio',
   description: 'This is my portfolio',
-}
+  openGraph: {
+    title: "Qasir Portfolio",
+    description: "This is my portfolio",
+    siteName: "qasir.co.uk",
+    images: [
+      {
+        url: "/Qasir.jpeg",
+        width: 36,
+        height: 36,
+      }
+    ],
+  },
+};
 
 export default function RootLayout({
   children,
